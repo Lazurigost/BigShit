@@ -1,0 +1,29 @@
+.logo{
+    width: 300px;
+    height: 100px;
+}
+.head_div{
+    width: 100%;
+    display: flex;}
+    
+.stat_div{
+    display: flex;
+    flex-direction: column;}
+.menu_div{
+    display: flex;
+    width: 100%;
+    align-content: space-around;}
+.qs_buy_div{
+    display: flex;}
+.quick_search_div{
+    border: 1px;
+    border-color: black;
+    width: fit-content;}
+.qs_form{
+    width: fit-content;}
+aside{
+    width: fit-content;
+    position: fixed;}
+main{
+align-self: center;
+align-items: center;}
