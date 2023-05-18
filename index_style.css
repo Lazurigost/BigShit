@@ -26,4 +26,7 @@ aside{
     position: fixed;}
 main{
 align-self: center;
-align-items: center;}
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;}
