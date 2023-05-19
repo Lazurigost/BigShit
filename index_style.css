@@ -1,17 +1,22 @@
 .logo{
     width: 300px;
     height: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .head_div{
     width: 100%;
-    display: flex;}
-    
+    display: flex;
+justify-content: center;
+align-content: space-between;
+flex-wrap: wrap;}
 .stat_div{
     display: flex;
     flex-direction: column;}
 .menu_div{
     display: flex;
     width: 100%;
+    justify-content: center;
     align-content: space-around;}
 .qs_buy_div{
     display: flex;}
@@ -23,10 +28,15 @@
     width: fit-content;}
 aside{
     width: fit-content;
-    position: fixed;}
+    position: fixed;
+    left: 0;}
 main{
 align-self: center;
 align-items: center;
 display: flex;
 justify-content: center;
 flex-direction: column;}
+.search_div{
+    display: flex;
+    align-items: center;
+}
