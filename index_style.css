@@ -30,6 +30,9 @@ aside{
     width: fit-content;
     position: fixed;
     left: 0;}
+.menu_a{
+    cursor: pointer;
+}
 main{
 align-self: center;
 align-items: center;
@@ -39,4 +42,16 @@ flex-direction: column;}
 .search_div{
     display: flex;
     align-items: center;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+input[type="radio"]{
+    cursor: pointer;
 }
